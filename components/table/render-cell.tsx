@@ -16,14 +16,14 @@ export const RenderCell = ({ user, columnKey }: Props) => {
   switch (columnKey) {
     case "name":
       return (
-        <User
-          avatarProps={{
-            src: "https://i.pravatar.cc/150?u=a04258114e29026702d",
-          }}
-          name={cellValue}
-        >
-          {user.email}
-        </User>
+         <User
+            avatarProps={{
+               src: "https://randomuser.me/api/portraits/men/22.jpg",
+            }}
+            name={cellValue}
+         >
+            {user.email}
+         </User>
       );
     case "role":
       return (
