@@ -1,68 +1,32 @@
-# NextJS and NextUI Dashboard Template Starter
+# Dashboard Application
 
-You can deploy here directly to vercel [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Siumauricio/nextui-dashboard-template)
+This project is a responsive and highly customizable dashboard application built with Next.js and NextUI. Designed with a focus on user experience and flexibility, this dashboard can seamlessly integrate into various types of web applications, providing a robust foundation for managing and visualizing data.
 
+Leveraging the power of Next.js, the application benefits from server-side rendering, fast page loads, and a scalable architecture, making it ideal for modern web environments. The use of NextUI ensures a sleek, visually appealing interface with ready-to-use, accessible components that enhance productivity and maintain design consistency.
 
-V1 Version Stitches https://v1-nextui-dashboard-template.vercel.app/
-V1 Code: https://github.com/Siumauricio/nextui-dashboard-template/tree/v1
+Fully responsive and adaptive to any device, this dashboard automatically adjusts its layout for optimal display on desktops, tablets, and mobile devices. The modular design enables easy customization, allowing developers to expand or modify features based on specific application needs, whether it's adding new data visualizations, managing additional user information, or integrating with third-party services.
 
-This is a template for NextJS and NextUI.
-
-[NextJS](https://nextjs.org/)
-[NextUI](https://nextui.org/)
-
-You can see the demo here: https://nextui-dashboard-template.vercel.app/
-For improve this template, you can create a pull request or open an issue here [Issues](https://github.com/Siumauricio/nextui-dashboard-template/issues) or [Pull Request](
-    https://github.com/Siumauricio/nextui-dashboard-template/pulls)
+With this dashboard, you have a powerful, ready-to-integrate solution for building insightful and interactive user experiences across diverse applications.
 
 ### Dark Mode
-![Dashboard Dark Mode](./public/dark.png)
+
+![Dashboard Dark Mode](./public/dark1.png)
+![Dashboard Dark Mode](./public/dark2.png)
 
 ### Light Mode
+
 ![Dashboard Light Mode](./public/light.png)
-
-
-- Dark Mode Support
-- Full Responsive
-- Home Page with Charts
-- Accounts Page
-- More pages coming soon...
-
-```
-├── components
-│   ├── accounts            # Accounts components
-│   ├── charts              # Charts components
-│   ├── breadcrumb          # component
-|   ├── home                # Home components
-|   ├── layout              # Layout components
-|   ├── navbar              # Navbar components
-|   ├── sidebar             # Sidebar components
-|   ├── table               # Table components
-|   ├── styles              # Some reusable components
-|   ├── icons               # Icons
-|   ├── hooks               # Hooks
-├── app                     # Documentation files
-│   ├── accounts            # Accounts route
-|       ├── page.tsx        # Accounts page
-│   ├── page.tsx            # Entry point for the app
-│   ├── layout.tsx          # Layout applied to all application pages
-│   ├── providers.tsx       # Theme provider
-│   ├── more...             # Soon
-└──
-```
+![Dashboard Light Mode](./public/light2.png)
 
 ## For Run
 
 Install dependencies
-
 
 ```bash
 npm install
 ```
 
 Start the server
-
-
 
 ```bash
 npm run dev
